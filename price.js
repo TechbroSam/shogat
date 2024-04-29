@@ -6,7 +6,7 @@ const runApp = async () => {
     apiKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJub25jZSI6IjI4YzRjYzc5LWYyMDYtNDIwYy04ZmI4LThmYWQyZmY4NDhmYyIsIm9yZ0lkIjoiMzY4ODYyIiwidXNlcklkIjoiMzc5MDk4IiwidHlwZUlkIjoiNjhlNGE1YWUtNGRiYi00ZmM3LWFkZjYtZjVmNGExNjRkNzE1IiwidHlwZSI6IlBST0pFQ1QiLCJpYXQiOjE3MDMwMTAzNTMsImV4cCI6NDg1ODc3MDM1M30.BDM922jyo3k6BVW6b8sQmsEsu9I1OC-aPfwVTcRfquY"
   });
 
-  const address = "BG5Dp9gU5WbkHEaz6y95apb5NVPw3jC17M4ro27sgSXP";
+  const address = "5H3nkjit3uBQkKDwbbNEm79oPtonr1UwKX7yW1oU9HDc";
 
   const network = SolNetwork.MAINNET;
 
@@ -16,7 +16,7 @@ const runApp = async () => {
   });
 
    // Update the DOM with the fetched price
-  document.getElementById("token-price").innerText = '$' + response.get("price");
+  document.getElementById("token-price1").innerText = '$' + response.get("price");
 };
 
 // Run the runApp function when the DOM content is loaded
