@@ -317,3 +317,9 @@ a.container1:hover{
 	box-shadow: 0 0px 0px 0 rgba(255, 234, 192, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
 }
 
+
+html {
+	visibility: visible;
+	opacity: 1;
+}
+
