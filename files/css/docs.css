@@ -243,6 +243,7 @@ body{
 	flex-direction: row;
 	justify-content: space-around;
 	text-align: center;
+	padding: auto;
 	/* Center the container horizontally */
 	/* Align items to the top */
 	
@@ -289,30 +290,57 @@ body{
 	height: auto;
 }
 
+@keyframes animateBoxShadow {
+	0% {
+		box-shadow: 0 3px 6px 0 rgba(255, 234, 192, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+	}
+
+	25% {
+		box-shadow: 0 0 0 0 rgba(255, 234, 192, 0.2), 0 0 0 0 rgba(0, 0, 0, 0.19);
+	}
+
+	50% {
+		box-shadow: 0 -3px 6px 0 rgba(255, 234, 192, 0.2), -4px 0 8px 0 rgba(0, 0, 0, 0.19);
+	}
+
+	75% {
+		box-shadow: 0 0 0 0 rgba(255, 234, 192, 0.2), 0 0 0 0 rgba(0, 0, 0, 0.19);
+	}
+
+	100% {
+		box-shadow: 0 3px 6px 0 rgba(255, 234, 192, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+	}
+}
+
+
+
 div.container1 {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	text-align: center;
 	background-color: #232323;
-	border: none;
 	text-align: center;
 	text-decoration: none;
 	font-size: 16px;
 	border-radius: 4px;
 	cursor: pointer;
-	box-shadow: 0 3px 6px 0 rgba(255, 234, 192, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 4px 8px 0 rgba(255, 234, 192, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
 	padding: 20px;
 	color: #fff2c7;
 	font-weight: bold;
 	font-family: 'Montserrat';
-
+	position: relative;
+	overflow: hidden;
+	animation: animateBoxShadow 5s linear infinite;
 }
+
 
 div.container1:hover{
 	color: #fff;
 	background-color: #202020;
 	box-shadow: 0 0px 0px 0 rgba(255, 234, 192, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+	animation: none;
 }
 
 
