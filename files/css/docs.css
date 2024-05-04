@@ -252,7 +252,7 @@ body{
 
 .container > div {
 	padding: 20px;
-	color: #fff2c7;
+	color: #00ffa2;
 	font-family: 'Montserrat';
 }
 
@@ -278,7 +278,7 @@ body{
 
 
 .socials {
-	background-color: #fff2c7;
+	background-color: #00ffa2;
 	border-radius: 50%;
 	padding: 0px !important;
 	align-items: center;
@@ -291,7 +291,7 @@ body{
 
 @keyframes animateBoxShadow {
 	0% {
-		box-shadow: 0 3px 6px 0 rgba(255, 234, 192, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+		box-shadow: 0 3px 6px 0 rgba(69, 249, 177, 0.2), 0 4px 8px 0 rgba(23, 77, 50, 0.19);
 	}
 
 	25% {
@@ -299,7 +299,7 @@ body{
 	}
 
 	50% {
-		box-shadow: 0 -3px 6px 0 rgba(255, 234, 192, 0.2), -4px 0 8px 0 rgba(0, 0, 0, 0.19);
+		box-shadow: 0 -3px 6px 0 rgba(69, 249, 177, 0.2), 0 -4px 8px 0 rgba(23, 77, 50, 0.19);
 	}
 
 	75% {
@@ -307,7 +307,7 @@ body{
 	}
 
 	100% {
-		box-shadow: 0 3px 6px 0 rgba(255, 234, 192, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+		box-shadow: 0 3px 6px 0 rgba(69, 249, 177, 0.2), 0 4px 8px 0 rgba(23, 77, 50, 0.19);
 	}
 }
 
@@ -324,9 +324,9 @@ div.container1 {
 	font-size: 16px;
 	border-radius: 4px;
 	cursor: pointer;
-	box-shadow: 0 4px 8px 0 rgba(255, 234, 192, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 3px 6px 0 rgba(69, 249, 177, 0.2), 0 4px 8px 0 rgba(23, 77, 50, 0.19);
 	padding: 20px;
-	color: #fff2c7;
+	color: #00ffa2;
 	font-weight: bold;
 	font-family: 'Montserrat';
 	position: relative;
@@ -338,7 +338,7 @@ div.container1 {
 div.container1:hover{
 	color: #fff;
 	background-color: #202020;
-	box-shadow: 0 0px 0px 0 rgba(255, 234, 192, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 3px 6px 0 rgba(69, 249, 177, 0.2), 0 4px 8px 0 rgba(23, 77, 50, 0.19);
 	animation: none;
 }
 
