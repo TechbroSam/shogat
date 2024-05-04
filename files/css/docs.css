@@ -295,15 +295,15 @@ body{
 	}
 
 	25% {
-		box-shadow: 0 0 0 0 rgba(255, 234, 192, 0.2), 0 0 0 0 rgba(0, 0, 0, 0.19);
+		box-shadow: 0 0 0 0 rgba(69, 249, 177, 0.373), 0 0 0 0 rgba(69,249,177,0.373);
 	}
 
 	50% {
-		box-shadow: 0 -3px 6px 0 rgba(69, 249, 177, 0.2), 0 -4px 8px 0 rgba(23, 77, 50, 0.19);
+		box-shadow: 0 -3px 6px 0 rgba(69, 249, 177, 0.2), 0 -4px 8px 0 rgba(69,249,177,0.373);
 	}
 
 	75% {
-		box-shadow: 0 0 0 0 rgba(255, 234, 192, 0.2), 0 0 0 0 rgba(0, 0, 0, 0.19);
+		box-shadow: 0 0 0 0 rgba(255, 234, 192, 0.2), 0 0 0 0 rgba(129, 248, 190, 0.068);
 	}
 
 	100% {
@@ -338,7 +338,7 @@ div.container1 {
 div.container1:hover{
 	color: #fff;
 	background-color: #202020;
-	box-shadow: 0 3px 6px 0 rgba(69, 249, 177, 0.2), 0 4px 8px 0 rgba(23, 77, 50, 0.19);
+	box-shadow: 0 3px 6px 0 rgba(69, 249, 177, 0.2), 0 4px 8px 0 rgba(69, 249, 177, 0.493);
 	animation: none;
 }
 
