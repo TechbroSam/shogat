@@ -55,7 +55,7 @@ body{
 	background-position:-471px 0;
 }
 
-.sample-docs .p32{
+.sample-docs .p8{
 	background:-webkit-gradient(linear, left top, right top, color-stop(0.95, #fff), color-stop(1, #dadada));
 	background-image:-webkit-linear-gradient(left, #fff 95%, #dadada 100%);
 	background-image:-moz-linear-gradient(left, #fff 95%, #dadada 100%);
@@ -64,11 +64,11 @@ body{
 	background-image:linear-gradient(left, #fff 95%, #dadada 100%);
 }
 
-.sample-docs .p33{
+.sample-docs .p9{
 	background-position:-942px 0;
 }
 
-.sample-docs .p34{
+.sample-docs .p10{
 	background-position:-1413px 0;
 }
 
@@ -265,7 +265,7 @@ body{
 .button {
 	background-color: #232323;
 	border: none;
-	text-align: center;
+	text-align: center;+
 	text-decoration: none;
 	display: inline-block;
 	font-size: 16px;
