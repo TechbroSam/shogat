@@ -318,7 +318,7 @@ yepnope({
 
 </script>
 
-	<script>
+<script>
 
 
 	// Function to format liquidity or fdv value
@@ -339,10 +339,10 @@ yepnope({
 
 
 
-		// Fetch data from Dexscreener API and update price in the HTML
-		const fetchTokenData = async () => {
+// Fetch data from Dexscreener API and update price in the HTML
+const fetchTokenData = async () => {
 			try {
-				const response = await fetch('https://api.dexscreener.io/latest/dex/tokens/3psH1Mj1f7yUfaD5gh6Zj7epE8hhrMkMETgv5TshQA4o');
+				const response = await fetch('https://api.dexscreener.io/latest/dex/tokens/AjpRhVsJN6gWipM926q4vz58FVgKxoErfDa3ru7PnsiL');
 				const data = await response.json();
 
 				// Log the fetched data to understand its structure
@@ -369,7 +369,10 @@ yepnope({
 
 		// Call the fetchTokenData function when the DOM content is loaded
 		document.addEventListener("DOMContentLoaded", fetchTokenData);
-	</script>
+
+	// Call the fetchTokenData function every 30 seconds
+    setInterval(fetchTokenData, 30000);
+</script>
 
 
 </body>
