@@ -2,9 +2,13 @@
 
 body{
 	margin:0;
-	padding:0;
 	overflow:hidden;
 	background-color: #202020;
+	font-family: 'Montserrat';
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+           
 }
 
 #canvas{
@@ -275,7 +279,7 @@ body{
 .button {
 	background-color: #232323;
 	border: none;
-	text-align: center;+
+	text-align: center;
 	text-decoration: none;
 	display: inline-block;
 	font-size: 16px;
