@@ -94,7 +94,7 @@
 
   <body>
     <div id="main-content">
-      <div class="container gradient-box" style="margin-bottom: 5px">
+      <div class="container gradient-box" style="margin-bottom: 20px">
         <div
           class="container"
           style="
@@ -155,9 +155,7 @@
           </a>
         </div>
 
-        <div
-          class="container2"
-        >
+        <div class="container2">
           <button style="font-weight: 700" id="homeButton" onclick="goHome()">
             Home
           </button>
@@ -212,11 +210,12 @@
           >
             <div class="container3">Village Square</div>
           </a>
+
           <a
             href="https://raydium.io/swap/?outputCurrency=BMwhQ1HXuzA7ucY8NYHyVq2uwuG47GHj1dNP6xJdoPzD"
             target="_blank"
             rel="noopener noreferrer"
-            style="text-decoration: none; margin: 10px 20px;"
+            style="text-decoration: none; margin: 10px 20px"
           >
             <div class="container1">BUY BO&#8358;G</div>
           </a>
@@ -483,7 +482,7 @@
       const fetchTokenData = async () => {
         try {
           const response = await fetch(
-            "https://api.dexscreener.io/latest/dex/tokens/AjpRhVsJN6gWipM926q4vz58FVgKxoErfDa3ru7PnsiL"
+            "https://api.dexscreener.io/latest/dex/tokens/4Cnk9EPnW5ixfLZatCPJjDB1PUtcRpVVgTQukm9epump"
           );
           const data = await response.json();
           console.log("Fetched data:", data);

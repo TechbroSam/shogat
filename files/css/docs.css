@@ -368,10 +368,10 @@ div.container3 {
 	font-size: 14px;
 	border-radius: 4px;
 	cursor: pointer;
-	box-shadow: 0 3px 6px 0 rgba(221, 221, 221, 0.2), 0 4px 8px 0 rgba(23, 77, 50, 0.19);
+	box-shadow: 0 3px 6px 0 rgba(69, 249, 177, 0.2), 0 4px 8px 0 rgba(23, 77, 50, 0.19);
 	padding: 10px;
 	margin-right: 1rem;
-	color: #f1f1f1;
+	color: #00ffa2;
 	font-weight: bold;
 	font-family: 'Montserrat' !important;
 	position: relative;
@@ -379,9 +379,9 @@ div.container3 {
 }
 
 div.container3:hover{
-	color: #00ffa2;
+	color: #fff;
 	background-color: #202020;
-	box-shadow: 0 3px 6px 0 rgba(211, 211, 211, 0.2), 0 4px 8px 0 rgba(69, 249, 177, 0.493);
+	box-shadow: 0 3px 6px 0 rgba(69, 249, 177, 0.2), 0 4px 8px 0 rgba(69, 249, 177, 0.493);
 	animation: none;
 }
 
@@ -415,4 +415,9 @@ html {
 		0 3px 6px 0 rgba(0, 255, 162, 0.2),
 		0 4px 8px 0 rgba(246, 246, 246, 0.19),
 		0 5px 10px 0 rgba(0, 255, 162, 0.2);
+}
+
+footer {
+
+	margin-bottom: 20px;
 }
