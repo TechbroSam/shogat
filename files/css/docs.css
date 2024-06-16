@@ -255,7 +255,6 @@ body{
 }
 
 .container > div {
-	padding: 20px;
 	color: #00ffa2;
 	font-family: 'Montserrat';
 }
@@ -270,7 +269,7 @@ body{
 }
 
 .container2 > div {
-	padding: 20px;
+	padding: 10px;
 	color: #f6f6f6;
 	font-family: 'Montserrat';
 	text-align: center;
@@ -331,21 +330,18 @@ body{
 	}
 }
 
-
-
 div.container1 {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	text-align: center;
 	background-color: #232323;
 	text-align: center;
 	text-decoration: none;
-	font-size: 16px;
+	font-size: 24px;
 	border-radius: 4px;
 	cursor: pointer;
 	box-shadow: 0 3px 6px 0 rgba(69, 249, 177, 0.2), 0 4px 8px 0 rgba(23, 77, 50, 0.19);
-	padding: 20px;
+	padding: 10px;
 	color: #00ffa2;
 	font-weight: bold;
 	font-family: 'Montserrat' !important;
@@ -362,6 +358,38 @@ div.container1:hover{
 	animation: none;
 }
 
+div.container3 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: #232323;
+	text-align: center;
+	text-decoration: none;
+	font-size: 14px;
+	border-radius: 4px;
+	cursor: pointer;
+	box-shadow: 0 3px 6px 0 rgba(221, 221, 221, 0.2), 0 4px 8px 0 rgba(23, 77, 50, 0.19);
+	padding: 10px;
+	margin-right: 1rem;
+	color: #f1f1f1;
+	font-weight: bold;
+	font-family: 'Montserrat' !important;
+	position: relative;
+	overflow: hidden;
+}
+
+div.container3:hover{
+	color: #00ffa2;
+	background-color: #202020;
+	box-shadow: 0 3px 6px 0 rgba(211, 211, 211, 0.2), 0 4px 8px 0 rgba(69, 249, 177, 0.493);
+	animation: none;
+}
+
+div.container4 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
 
 html {
 	visibility: visible;
